@@ -1,19 +1,19 @@
 export default function BlogSection() {
   const posts = [
     {
-      img: "/blog1.jpg",
+      img: "/category/MBgold.png",
       title: "Best Supplements for Beginners",
       desc: "Discover the top 5 supplements every beginner should start with to boost performance and recovery.",
       tag: "Supplements",
     },
     {
-      img: "/blog2.jpg",
+      img: "/category/MBgold.png",
       title: "How to Gain Muscle Fast",
       desc: "A step-by-step guide to building lean muscle mass with the right diet and workout routine.",
       tag: "Fitness",
     },
     {
-      img: "/blog3.jpg",
+      img: "/category/MBgold.png",
       title: "Protein Myths Busted",
       desc: "We debunk the most common myths about protein intake and reveal the real facts.",
       tag: "Nutrition",

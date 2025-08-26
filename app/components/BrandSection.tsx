@@ -1,5 +1,5 @@
 export default function BrandSection() {
-  const brands = ["/brand1.png", "/brand2.png", "/brand3.png"];
+  const brands = ["/category/MBgold.png", "/category/MBgold.png", "/category/MBgold.png"];
 
   return (
     <section className="py-12 bg-gray-100">
