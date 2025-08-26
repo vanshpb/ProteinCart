@@ -3,7 +3,7 @@
 import Header from "@/app/components/Header";
 import HeroSection from "@/app/components/HeroSection";
 import TrendingProducts from "@/app/components/TrendingProducts";
-import BrandSection from "@/app/components/BrandSection";
+import TopBrands from "@/app/components/TopBrands";
 import DealsSection from "@/app/components/DealsSection";
 import BlogSection from "@/app/components/BlogSection";
 import Footer from "@/app/components/Footer";
@@ -14,7 +14,7 @@ export default function HomePage() {
       <Header />
       <HeroSection />
       <TrendingProducts />
-      <BrandSection />
+      <TopBrands />
       <DealsSection />
       <BlogSection />
       <Footer />

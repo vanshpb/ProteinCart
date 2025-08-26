@@ -23,13 +23,13 @@ export default function HeroSection() {
   const [active, setActive] = useState("Proteins");
 
   return (
-    <section className="text-center py-16 px-4 sm:px-8 lg:px-16 bg-white">
+    <section className="text-center py-20 px-4 sm:px-8 lg:px-16 bg-white">
       {/* Heading */}
       <motion.h1
         initial={{ opacity: 0, y: 20, filter: "blur(10px)" }} // hidden + blurred
         animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}   // visible + clear
         transition={{ delay: 0.5, duration: 0.8, ease: "linear" }}
-        className="text-4xl sm:text-5xl lg:text-6xl mb-5 font-bold text-black max-w-4xl mx-auto leading-tight"
+        className="text-4xl sm:text-5xl lg:text-6xl mb-5 font-bold text-black max-w-4xl mx-auto leading-tight mt-5"
       >
         Upgrade Your Fitness Fuel
       </motion.h1>
@@ -40,18 +40,20 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 0.8, ease: "linear" }} // comes after the first
-        className="text-2xl sm:text-3xl lg:text-5xl font-semibold mb-5 text-black mt-12"
+        className="text-2xl sm:text-3xl lg:text-[46px]  font-[800] mb-6 text-black mt-21"
       >
         CATEGORY
       </motion.h1>
-      <div className="flex justify-center gap-2 sm:gap-3 flex-wrap mb-12">
+
+      {/* product button  */}
+      <div className="flex justify-center gap-2 sm:gap-3 flex-wrap mb-0">
         {categories.map((cat) => (
           <button
             key={cat}
             onClick={() => setActive(cat)}
-            className={`px-3 sm:px-4 py-1 rounded-[200px] border font-extrabold text-sm sm:text-base transition ${active === cat
-              ? "bg-black text-white border-black"
-              : "bg-white text-black border-gray-400 hover:bg-gray-100"
+            className={`px-3 sm:px-4 py-0 rounded-xl border font-extrabold text-sm sm:text-base transition ${active === cat
+              ? "bg-black text-white"
+              : "bg-white text-black border-black border-2 hover:bg-gray-100"
               }`}
           >
             {cat}
@@ -62,7 +64,7 @@ export default function HeroSection() {
 
       {/* Product Images */}
       <div className="flex justify-center">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 max-w-9xl mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 max-w-full mx-auto">
           {products.map((product) => (
             <div
               key={product.id}

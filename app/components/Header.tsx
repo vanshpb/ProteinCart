@@ -5,7 +5,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white text-black sticky top-0 z-50">
+    <header className="text-black sticky top-0 z-50 bg-white border-b border-black/10">
       {/* Top Section */}
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:px-12 py-2">
 
