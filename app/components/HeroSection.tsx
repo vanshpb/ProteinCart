@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const categories = ["Proteins", "Creatine", "Pre-Workout", "Gainers", "Multivitamins"];
 
-//product images (place them in /public/products/)
+// Product images (place them in /public/category/)
 const products = [
   { id: 1, img: "/category/MBgold.png" },
   { id: 2, img: "/category/MassGainer.png" },
@@ -26,41 +26,40 @@ export default function HeroSection() {
     <section className="text-center py-20 px-4 sm:px-8 lg:px-16 bg-white">
       {/* Heading */}
       <motion.h1
-        initial={{ opacity: 0, y: 20, filter: "blur(10px)" }} // hidden + blurred
-        animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}   // visible + clear
+        initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
+        animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
         transition={{ delay: 0.5, duration: 0.8, ease: "linear" }}
         className="text-4xl sm:text-5xl lg:text-6xl mb-5 font-bold text-black max-w-4xl mx-auto leading-tight mt-5"
       >
         Upgrade Your Fitness Fuel
       </motion.h1>
 
-
       {/* Categories */}
-      <motion.h1
+      <motion.h2
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1, duration: 0.8, ease: "linear" }} // comes after the first
-        className="text-2xl sm:text-3xl lg:text-[46px]  font-[800] mb-6 text-black mt-21"
+        transition={{ delay: 1, duration: 0.8, ease: "linear" }}
+        className="text-2xl sm:text-3xl lg:text-[46px] font-[800] mb-6 text-black mt-10"
       >
         CATEGORY
-      </motion.h1>
+      </motion.h2>
 
-      {/* product button  */}
-      <div className="flex justify-center gap-2 sm:gap-3 flex-wrap mb-0">
+      {/* Product Buttons */}
+      <div className="flex justify-center gap-2 sm:gap-3 flex-wrap mb-10">
         {categories.map((cat) => (
           <button
             key={cat}
             onClick={() => setActive(cat)}
-            className={`px-3 sm:px-4 py-0 rounded-xl border font-extrabold text-sm sm:text-base transition ${active === cat
-              ? "bg-black text-white"
-              : "bg-white text-black border-black border-2 hover:bg-gray-100"
-              }`}
+            className={`px-3 sm:px-4 py-1 rounded-xl border font-extrabold text-sm sm:text-base transition ${
+              active === cat
+                ? "bg-black text-white"
+                : "bg-white text-black border-black border-2 hover:bg-gray-100"
+            }`}
           >
             {cat}
           </button>
         ))}
       </div>
-
 
       {/* Product Images */}
       <div className="flex justify-center">
@@ -68,14 +67,13 @@ export default function HeroSection() {
           {products.map((product) => (
             <div
               key={product.id}
-              className="rounded-lg overflow-hidden flex items-center justify-center"
+              className="relative w-[200px] h-[220px] rounded-lg overflow-hidden flex items-center justify-center"
             >
               <Image
                 src={product.img}
                 alt="Product Image"
-                width={410}
-                height={210}
-                className="object-contain w-[200px] h-[220px]"
+                fill
+                className="object-contain"
               />
             </div>
           ))}
