@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {Geist_Mono } from "next/font/google";
+import { CartProvider } from "@/app/cart/cartcontext"; 
 import './globals.css';
 
 const geistMono = Geist_Mono({
@@ -19,10 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${geistMono.variable} antialiased`}>
+        <CartProvider>{children}</CartProvider>
       </body>
     </html>
   );

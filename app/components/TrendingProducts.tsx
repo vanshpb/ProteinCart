@@ -2,6 +2,7 @@
 
 import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
+import { useCart } from "@/app/cart/cartcontext"; // ✅ global cart hook
 
 type Product = {
   title: string;
@@ -9,9 +10,13 @@ type Product = {
   image: string;
 };
 
-function ProductCard({ title, price, image }: Product) {
+type ProductCardProps = Product & {
+  onAddToCart: (product: Product) => void;
+};
+
+function ProductCard({ title, price, image, onAddToCart }: ProductCardProps) {
   return (
-    <div className="w-[320px] h-[360px] rounded-xl shadow-md border flex flex-col items-center justify-center p-4 text-center bg-white hover:shadow-lg transition-shadow duration-300">
+    <div className="w-[320px] h-[400px] rounded-xl shadow-md border flex flex-col items-center justify-center p-4 text-center bg-white hover:shadow-lg transition-shadow duration-300">
       <Image
         src={image}
         alt={title}
@@ -20,7 +25,13 @@ function ProductCard({ title, price, image }: Product) {
         className="object-contain"
       />
       <h3 className="text-base font-semibold mt-3">{title}</h3>
-      <p className="text-gray-600 text-sm mt-1">{price}</p>
+      <p className="text-gray-600 text-sm mt-1">₹{price}</p>
+      <button
+        onClick={() => onAddToCart({ title, price, image })}
+        className="mt-4 bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition"
+      >
+        Add to Cart
+      </button>
     </div>
   );
 }
@@ -28,6 +39,7 @@ function ProductCard({ title, price, image }: Product) {
 export default function TrendingProducts() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [products, setProducts] = useState<Product[]>([]);
+  const { addToCart } = useCart(); // ✅ use global cart
 
   useEffect(() => {
     fetch("/jsonFiles/trendingProduct.json")
@@ -40,6 +52,16 @@ export default function TrendingProducts() {
     if (scrollRef.current) {
       scrollRef.current.scrollBy({ left: offset, behavior: "smooth" });
     }
+  };
+
+  const handleAddToCart = (product: Product) => {
+    // ✅ don't send qty directly, let context handle it
+    addToCart({
+      id: Date.now(),
+      name: product.title,
+      price: Number(product.price),
+      image: product.image,
+    });
   };
 
   return (
@@ -61,7 +83,6 @@ export default function TrendingProducts() {
         />
       </button>
 
-
       <button
         type="button"
         onClick={() => scrollBy(320)}
@@ -81,7 +102,7 @@ export default function TrendingProducts() {
       >
         {products.map((p, i) => (
           <div key={i} className="flex-shrink-0">
-            <ProductCard {...p} />
+            <ProductCard {...p} onAddToCart={handleAddToCart} />
           </div>
         ))}
       </div>
