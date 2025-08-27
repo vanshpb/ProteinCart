@@ -11,7 +11,7 @@ const products = [
   { id: 2, img: "/category/MassGainer.png" },
   { id: 3, img: "/category/FishOil.png" },
   { id: 4, img: "/category/Creatine.png" },
-  { id: 5, img: "/category/bcaa.png" },
+  { id: 5, img: "/category/Bcaa.png" },
   { id: 6, img: "/category/PreWorkout.png" },
   { id: 7, img: "/category/FatBurner.png" },
   { id: 8, img: "/category/PeanutButter.png" },
