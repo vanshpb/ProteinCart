@@ -1,0 +1,834 @@
+[
+  {
+    "brand": "ProSupps",
+    "comboName": "ProSupps Starter Pack",
+    "products": [
+      {
+        "title": "ProSupps Liver Protection Liver Health - 60 Capsules",
+        "price": "Rs. 1175",
+        "image": "https://nutristar.in/cdn/shop/files/1_38c43606-87ce-4fcd-aae7-07b514edb3a5.webp?v=1744018786",
+        "link": "https://nutristar.in/products/prosupps-liver-protection-liver-health-60-capsules"
+      },
+      {
+        "title": "ProSupps Test Surge Anabolic Support - 60 Capsules",
+        "price": "Rs. 1195",
+        "image": "https://nutristar.in/cdn/shop/files/1_cb822091-1819-4aa2-a021-c8df9be284a1.webp?v=1744018781",
+        "link": "https://nutristar.in/products/prosupps-test-surge-anabolic-support-60-capsules"
+      },
+      {
+        "title": "ProSupps Creatine Monohydrate 200g - 67 Servings",
+        "price": "Rs. 845",
+        "image": "https://nutristar.in/cdn/shop/files/4_d3b07324-bdef-444e-bed6-1684e4e5e248.jpg?v=1744018805",
+        "link": "https://nutristar.in/products/prosupps-creatine-monohydrate-200g-67-servings"
+      }
+    ],
+    "comboPrice": "Rs. 3215"
+  },
+  {
+    "brand": "QNT",
+    "comboName": "QNT Starter Pack",
+    "products": [
+      {
+        "title": "QNT Gym Bag",
+        "price": "Rs. 495",
+        "image": "https://nutristar.in/cdn/shop/files/QNT_Bag.png?v=1744018589",
+        "link": "https://nutristar.in/products/qnt-gym-bag-qnt-gym-bags-black"
+      },
+      {
+        "title": "QNT Monohydrate Creatine 30 Serving",
+        "price": "Rs. 449",
+        "image": "https://nutristar.in/cdn/shop/files/1_32ac5dfc-1301-49d8-8024-5ecbd4380051.png?v=1744018556",
+        "link": "https://nutristar.in/products/qnt-monohydrate-creatine-30-serving"
+      },
+      {
+        "title": "QNT Protein Shaker Bottle - 700 ml",
+        "price": "Rs. 299",
+        "image": "https://nutristar.in/cdn/shop/files/3_5b86af2e-aa35-4bb5-a8d4-8d8e288ba78c.jpg?v=1744018767",
+        "link": "https://nutristar.in/products/qnt-protein-shaker-bottle-700-ml"
+      }
+    ],
+    "comboPrice": "Rs. 1243"
+  },
+  {
+    "brand": "Ronnie Coleman",
+    "comboName": "Ronnie Coleman Starter Pack",
+    "products": [
+      {
+        "title": "Ronnie Coleman Signature Series Pro Antium - 5 Lbs",
+        "price": "Rs. 6795",
+        "image": "https://nutristar.in/cdn/shop/files/1_e60f7b5b-44bb-4f98-bbf7-2046e252c0e4.webp?v=1751972773",
+        "link": "https://nutristar.in/products/ronnie-coleman-signature-series-pro-antium-5-lbs"
+      },
+      {
+        "title": "Ronnie Coleman Isotropic Max - 5 Lbs",
+        "price": "Rs. 9795",
+        "image": "https://nutristar.in/cdn/shop/files/61HhTK5BQML._SL1500.jpg?v=1751364279",
+        "link": "https://nutristar.in/products/ronnie-coleman-isotropic-max-5-lbs"
+      },
+      {
+        "title": "Ronnie Coleman Signature Series L-Carnitine XS 3000 Liquid , 473ml (16oz)",
+        "price": "Rs. 1995",
+        "image": "https://nutristar.in/cdn/shop/files/1_1b37c602-8299-4c3b-b1ca-431ae404f2f7.webp?v=1744434388",
+        "link": "https://nutristar.in/products/ronnie-coleman-signature-series-l-carnitine-xs-3000-liquid-473ml-16oz"
+      }
+    ],
+    "comboPrice": "Rs. 18585"
+  },
+  {
+    "brand": "Ryse",
+    "comboName": "Ryse Starter Pack",
+    "products": [
+      {
+        "title": "Ryse Bcaa/EAA, 372g - 30 Servings",
+        "price": "Rs. 3699",
+        "image": "https://nutristar.in/cdn/shop/files/Ryse_Bcaa_30ser_Cherry_Limeade_1_230a331b-ed5a-496f-b84b-138ee6dfd7cd.webp?v=1751711986",
+        "link": "https://nutristar.in/products/ryse-bcaa-eaa-372g-30-servings"
+      },
+      {
+        "title": "Ryse Loaded Protein, 27 Servings - 2 Lbs",
+        "price": "Rs. 6199",
+        "image": "https://nutristar.in/cdn/shop/files/Ryse_Loaded_Protein_Vanilla_Peanut_Butter_1_31c12811-6f93-4e3f-9ed4-28b3d378dced.webp?v=1751711932",
+        "link": "https://nutristar.in/products/ryse-loaded-protein-27-servings-2-lbs"
+      },
+      {
+        "title": "Ryse Creatine Monohydrate, 300g - 60 Servings",
+        "price": "Rs. 2099",
+        "image": "https://nutristar.in/cdn/shop/files/Ryse_Creatine_Monohydrate_300gm_60ser_Unflavored_1_d6f3057f-f24e-40aa-a8d4-3aca48b3ce5e.webp?v=1751356678",
+        "link": "https://nutristar.in/products/ryse-creatine-monohydrate-300g-60-servings"
+      }
+    ],
+    "comboPrice": "Rs. 11997"
+  },
+  {
+    "brand": "The Whole Truth",
+    "comboName": "The Whole Truth Starter Pack",
+    "products": [
+      {
+        "title": "The Whole Truth 24g Whey Protein Concentrate - 1kg",
+        "price": "Rs. 3149",
+        "image": "https://nutristar.in/cdn/shop/files/1cc.webp?v=1745387987",
+        "link": "https://nutristar.in/products/the-whole-truth-24g-whey-protein-concentrate-1kg"
+      },
+      {
+        "title": "The Whole Truth 24g Whey Protein Concentrate - 1 Kg (Pack of 2)",
+        "price": "Rs. 6145",
+        "image": "https://nutristar.in/cdn/shop/files/1cc.webp?v=1745387987",
+        "link": "https://nutristar.in/products/the-whole-truth-24g-whey-protein-concentrate-1-kg-pack-of-2"
+      },
+      {
+        "title": "The Whole Truth Protein Bar - 52g",
+        "price": "Rs. 95",
+        "image": "https://nutristar.in/cdn/shop/files/714x5Jjg6YL._SL1500.jpg?v=1745823326",
+        "link": "https://nutristar.in/products/the-whole-truth-peanut-cocoa-protein-bar-52g"
+      }
+    ],
+    "comboPrice": "Rs. 9389"
+  },
+  {
+    "brand": "Ultimate Nutrition",
+    "comboName": "Ultimate Nutrition Starter Pack",
+    "products": [
+      {
+        "title": "Ultimate Nutrition Filtered Shaker Bottle, 700 ml",
+        "price": "Rs. 350",
+        "image": "https://nutristar.in/cdn/shop/files/1_3bb87e66-f701-4568-b777-9f547050f08f.png?v=1744018726",
+        "link": "https://nutristar.in/products/ultimate-nutrition-filtered-shaker-bottle-700-ml"
+      },
+      {
+        "title": "Ultimate Nutrition ISO Sensation 93-5 Lbs",
+        "price": "Rs. 7795",
+        "image": "https://nutristar.in/cdn/shop/files/1_158f2678-0ba8-440e-8626-991b5389b27b.webp?v=1744018723",
+        "link": "https://nutristar.in/products/ultimate-nutrition-iso-sensation-93-5-lbs"
+      }
+    ],
+    "comboPrice": "Rs. 8145"
+  },
+  {
+    "brand": "Wellbeing Nutrition",
+    "comboName": "Wellbeing Nutrition Starter Pack",
+    "products": [
+      {
+        "title": "Wellbeing Nutrition Whey Isolate 1 Kg",
+        "price": "Rs. 3835",
+        "image": "https://nutristar.in/cdn/shop/files/71IHiEcRR8L._SL1500.jpg?v=1750939337",
+        "link": "https://nutristar.in/products/wellbeing-nutrition-whey-isolate-1-kg"
+      },
+      {
+        "title": "Wellbeing Nutrition Melts Vitamin D3",
+        "price": "Rs. 550",
+        "image": "https://nutristar.in/cdn/shop/files/71XhfdXAF8L._SL1500.jpg?v=1750937183",
+        "link": "https://nutristar.in/products/wellbeing-nutrition-melts-vitamin-d3"
+      },
+      {
+        "title": "Wellbeing Nutrition Daily Fiber",
+        "price": "Rs. 850",
+        "image": "https://nutristar.in/cdn/shop/files/71E8YN5rVYL._SL1500.jpg?v=1750939276",
+        "link": "https://nutristar.in/products/wellbeing-nutrition-daily-fiber"
+      }
+    ],
+    "comboPrice": "Rs. 5235"
+  },
+  {
+    "brand": "Welcore",
+    "comboName": "Welcore Starter Pack",
+    "products": [
+      {
+        "title": "Wellcore Micronised Creatine Monohydrate, 250g",
+        "price": "Rs. 1075",
+        "image": "https://nutristar.in/cdn/shop/files/1_386db1ac-0676-44fb-89c1-72b48bd5ee54.webp?v=1744018714",
+        "link": "https://nutristar.in/products/wellcore-micronised-creatine-monohydrate-250g"
+      },
+      {
+        "title": "Wellcore Micronised Creatine Monohydrate, 100gm",
+        "price": "Rs. 545",
+        "image": "https://nutristar.in/cdn/shop/files/1_68bb654b-ef6b-40fc-a476-8b42f0649ded.webp?v=1744291567",
+        "link": "https://nutristar.in/products/wellcore-micronised-creatine-monohydrate-100gm"
+      },
+      {
+        "title": "Wellcore Micronised Creatine Monohydrate, 122g",
+        "price": "Rs.545",
+        "image": "https://nutristar.in/cdn/shop/files/1_464936bc-409c-45c5-9d0e-340bb7d51234.webp?v=1744291402",
+        "link": "https://nutristar.in/products/wellcore-micronised-creatine-monohydrate-122g"
+      }
+    ],
+    "comboPrice": "Rs. 2165"
+  },
+  {
+    "brand": "Myogenetix",
+    "comboName": "Myogenetix Starter Pack",
+    "products": [
+      {
+        "title": "Myogenetix Creatine Monohydrate 300 Gm",
+        "price": "Rs. 2500",
+        "image": "https://nutristar.in/cdn/shop/files/1_81f2c29b-8f2a-4f6e-b352-0d0a3b9c73e4.webp?v=1744018508",
+        "link": "https://nutristar.in/products/myogenetix-creatine-monohydrate-300g"
+      },
+      {
+        "title": "Myogenetix Myodrol-HSP, 30 Capsules",
+        "price": "Rs. 2590",
+        "image": "https://nutristar.in/cdn/shop/files/1_9a12f640-8964-4d2d-8331-aaf38c14e9bd.webp?v=1748611392",
+        "link": "https://nutristar.in/products/myogenetix-myodrol-hsp-30-capsules"
+      },
+      {
+        "title": "Myogenetix Platinum Creatine Monohydrate 300 Gm",
+        "price": "Rs. 2500",
+        "image": "https://nutristar.in/cdn/shop/files/1_37e3310c-a2bd-497a-8c4a-dff3d33dea7d.webp?v=1744018506",
+        "link": "https://nutristar.in/products/myogenetix-platinum-creatine-monohydrate-300g"
+      }
+    ],
+    "comboPrice": "Rs. 7590"
+  },
+  {
+    "brand": "My Protein",
+    "comboName": "My Protein Starter Pack",
+    "products": [
+      {
+        "title": "My Protein Simple Bag",
+        "price": "Rs. 395",
+        "image": "https://nutristar.in/cdn/shop/files/MyproteinBag-Black.jpg?v=1744018595",
+        "link": "https://nutristar.in/products/my-protein-simple-bag-myprotein-gym-bags-black"
+      },
+      {
+        "title": "Myprotein Gym Shaker Bottle 700 ml",
+        "price": "Rs. 495",
+        "image": "https://nutristar.in/cdn/shop/files/Myprotein_shaker.png?v=1744018576",
+        "link": "https://nutristar.in/products/myprotein-gym-shaker-bottle-700-ml"
+      }
+    ],
+    "comboPrice": "Rs. 890"
+  },
+  {
+    "brand": "NAKPRO",
+    "comboName": "NAKPRO Starter Pack",
+    "products": [
+      {
+        "title": "NAKPRO Perform Whey Protein Concentrate 1 Kg",
+        "price": "Rs. 1699",
+        "image": "https://nutristar.in/cdn/shop/files/NUT-NAK-AHIA_1_6daf0781-0c9e-49a3-b06d-baf17cd4a265.jpg?v=1752046677",
+        "link": "https://nutristar.in/products/nakpro-perform-whey-protein-concentrate-1-kg"
+      },
+      {
+        "title": "NAKPRO Platinum Whey Protein Isolate 1 Kg",
+        "price": "Rs. 2799",
+        "image": "https://nutristar.in/cdn/shop/files/NUT-NAK-AAIA_1_482d8e87-46c8-418d-8fd4-59a8bbf27ba2.png?v=1748845717",
+        "link": "https://nutristar.in/products/nakpro-platinum-whey-protein-isolate-1-kg"
+      },
+      {
+        "title": "NAKPRO Perform Whey Protein Concentrate 2 Kg",
+        "price": "Rs. 3299",
+        "image": "https://nutristar.in/cdn/shop/files/NUT-NAK-AHCB_1_1af47173-9e9d-45f5-bf65-a6a959d0e4bf.jpg?v=1748077095",
+        "link": "https://nutristar.in/products/nakpro-perform-whey-protein-concentrate-2-kg"
+      }
+    ],
+    "comboPrice": "Rs. 7797"
+  },
+  {
+    "brand": "Nature's Island",
+    "comboName": "Nature's Island Starter Pack",
+    "products": [
+      {
+        "title": "Nature's Island L-Glutathione for Radiant & Beautiful Skin ( 30 Capsules )",
+        "price": "Rs. 1389",
+        "image": "https://nutristar.in/cdn/shop/files/1_595867ac-1612-4b27-9d6a-d2ae806a4560.png?v=1744018665",
+        "link": "https://nutristar.in/products/natures-island-l-glutathione-for-radiant-beautiful-skin-30-capsules"
+      },
+      {
+        "title": "Nature's Island Collagen Ultimate Bone Joint Formula -250 gm",
+        "price": "Rs. 1295",
+        "image": "https://nutristar.in/cdn/shop/files/protein-blends-collagen-bone-joint-formula-with-vitamin-d3-original-imah3fzbxset3bef_1e3599c3-0689-4c85-9443-46d097a0a49d.webp?v=1744018676",
+        "link": "https://nutristar.in/products/natures-island-collagen-ultimate-bone-joint-formula-250-gm"
+      },
+      {
+        "title": "Nature's Island Collagen Skin Formula - 250 gm",
+        "price": "Rs. 1799",
+        "image": "https://natures-island.com/wp-content/uploads/2022/06/Skin-Collagen-Mango-Masti-01.png",
+        "link": "https://nutristar.in/products/nature-aos-island-collagen-skin-formula-250-gm"
+      }
+    ],
+    "comboPrice": "Rs. 4483"
+  },
+  {
+    "brand": "Neuherbs",
+    "comboName": "Neuherbs Starter Pack",
+    "products": [
+      {
+        "title": "Neuherbs Omega Flaxseed Oil 1000mg - 60 Cap",
+        "price": "Rs. 565",
+        "image": "https://nutristar.in/cdn/shop/files/omega_flaxseed_oil_1_1920x_9872410e-4783-4404-a8e1-b6647d591246.webp?v=1750916468",
+        "link": "https://nutristar.in/products/neuherbs-omega-flaxseed-oil-1000-mg-60-cap"
+      },
+      {
+        "title": "Neuherbs Deep Sea Fish Oil 1000mg - 60 Softgels",
+        "price": "Rs. 549",
+        "image": "https://nutristar.in/cdn/shop/files/Artboard1copy22_1920x_208d31a5-d172-4045-9a70-622beac61208.webp?v=1750915711",
+        "link": "https://nutristar.in/products/neuherbs-deep-sea-fish-oil-1000-mg-60-softgels"
+      },
+      {
+        "title": "Neuherbs Organic Apple Cider Vinegar - 500ml",
+        "price": "Rs. 355",
+        "image": "https://nutristar.in/cdn/shop/files/Artboard15.webp?v=1750857271",
+        "link": "https://nutristar.in/products/neuherbs-organic-apple-cider-vinegar-with-mother-500-ml"
+      }
+    ],
+    "comboPrice": "Rs. 1469"
+  },
+  {
+    "brand": "Nutrex",
+    "comboName": "Nutrex Starter Pack",
+    "products": [
+      {
+        "title": "Nutrex Lipo 6 HERS Ultra Concentrate- 60 Caps",
+        "price": "Rs. 1950",
+        "image": "https://nutristar.in/cdn/shop/files/1_06eeac49-0d9a-405a-a9cc-24bdf0469e0e.png?v=1744018903",
+        "link": "https://nutristar.in/products/nutrex-lipo-6-hers-ultra-concentrate-60-caps"
+      },
+      {
+        "title": "Nutrex Lipo 6 DEFINING GEL- 120 ml",
+        "price": "Rs. 2895",
+        "image": "https://nutristar.in/cdn/shop/files/1_b2cb1660-6192-457b-b683-e8502197ff63.png?v=1744018904",
+        "link": "https://nutristar.in/products/nutrex-lipo-6-defining-gel-120-ml"
+      },
+      {
+        "title": "Nutrex L-Arginine 1000 mg - 120 Caps",
+        "price": "Rs. 1699",
+        "image": "https://nutristar.in/cdn/shop/files/1_12_29754dda-b456-425e-baa6-2203eec4f0b6.png?v=1744018678",
+        "link": "https://nutristar.in/products/nutrex-l-arginine-1000-mg-120-caps"
+      }
+    ],
+    "comboPrice": "Rs. 6544"
+  },
+  {
+    "brand": "One Science",
+    "comboName": "One Science Starter Pack",
+    "products": [
+      {
+        "title": "One Science Ghost Pre-Workout- 30 Serving",
+        "price": "Rs. 1895",
+        "image": "https://nutristar.in/cdn/shop/files/1_d6c774b4-d415-4544-9a1c-564ce62d94fd.png?v=1744018874",
+        "link": "https://nutristar.in/products/one-science-ghost-pre-workout-30-serving"
+      },
+      {
+        "title": "One Science Nutrition Recharge BCAA - 50 Servings",
+        "price": "Rs. 1999",
+        "image": "https://nutristar.in/cdn/shop/files/1_85919fa4-8287-410d-9181-ce0e8748cc96.png?v=1744018849",
+        "link": "https://nutristar.in/products/one-science-nutrition-recharge-bcaa-50-servings-near-expiry"
+      },
+      {
+        "title": "One Science Premium Whey Protein - 2 Lbs",
+        "price": "Rs. 3245",
+        "image": "https://nutristar.in/cdn/shop/files/1_1c8f871c-c843-47c8-8ebe-8094760cc584.png?v=1744636293",
+        "link": "https://nutristar.in/products/one-science-premium-whey-protein-2-lbs"
+      }
+    ],
+    "comboPrice": "Rs. 7139"
+  },
+  {
+    "brand": "Optimum Nutrition",
+    "comboName": "Optimum Nutrition Starter Pack",
+    "products": [
+      {
+        "title": "Optimum Nutrition (ON) Zinc Magnesium Aspartate (ZMA) - 60 Capsules",
+        "price": "Rs. 749",
+        "image": "https://nutristar.in/cdn/shop/files/1_c2f990c9-4828-4034-92d5-47349a140de9.png?v=1744018550",
+        "link": "https://nutristar.in/products/optimum-nutrition-on-zinc-magnesium-aspartate-zma-60-capsules"
+      },
+      {
+        "title": "Optimum Nutrition (ON) Serious Mass - 6.6 Lbs",
+        "price": "Rs. 3229",
+        "image": "https://nutristar.in/cdn/shop/files/1_0ac4637e-4307-4b3c-baaa-9767e203f08d.webp?v=1744804174",
+        "link": "https://nutristar.in/products/optimum-nutrition-on-serious-mass-6-6-lbs"
+      },
+      {
+        "title": "Optimum Nutrition (ON) Micronized Creatine Powder - 83 Servings",
+        "price": "Rs. 999",
+        "image": "https://nutristar.in/cdn/shop/files/1_a0722bf3-3a1a-463d-8487-8989c9037d1a_1.png?v=1748493865",
+        "link": "https://nutristar.in/products/optimum-nutrition-on-micronized-creatine-powder-83-servings"
+      }
+    ],
+    "comboPrice": "Rs. 4977"
+  },
+  {
+    "brand": "Isopure",
+    "comboName": "Isopure Starter Pack",
+    "products": [
+      {
+        "title": "Isopure Collagen Peptides Collagen - 250g",
+        "price": "Rs. 1832",
+        "image": "https://nutristar.in/cdn/shop/files/1_44a42949-0f69-49b2-bf4e-2a113d89a946.png?v=1744018559",
+        "link": "https://nutristar.in/products/isopure-collagen-peptides-collagen-250g"
+      },
+      {
+        "title": "Isopure Gym Bag",
+        "price": "Rs. 495",
+        "image": "https://nutristar.in/cdn/shop/files/IsopureGymBagGrey-9.jpg?v=1744018602",
+        "link": "https://nutristar.in/products/isopure-gym-bag-isopure-gym-bags-gray"
+      },
+      {
+        "title": "Isopure Low Carb 100% Whey Protein Isolate -2.2 Lbs ( 1 kg )",
+        "price": "Rs. 4980",
+        "image": "https://nutristar.in/cdn/shop/files/1_2276ede0-23b9-4117-84e1-c428af1f9893.webp?v=1744019244",
+        "link": "https://nutristar.in/products/isopure-low-carb-100-whey-protein-isolate-2-2-lbs-1-kg"
+      }
+    ],
+    "comboPrice": "Rs. 7307"
+  },
+  {
+    "brand": "Kaged",
+    "comboName": "Kaged Starter Pack",
+    "products": [
+      {
+        "title": "Kaged Ferodrox - 30 Servings",
+        "price": "Rs. 4699",
+        "image": "https://nutristar.in/cdn/shop/files/Images_Ferodox_1_ecba74cb-f67f-4bec-bd8e-a2c025c58da5.webp?v=1750339901",
+        "link": "https://nutristar.in/products/kaged-ferodrox-30-servings"
+      },
+      {
+        "title": "Kaged Casein Protein, 27 Servings - 2 Lbs",
+        "price": "Rs. 6199",
+        "image": "https://nutristar.in/cdn/shop/files/Casein_2lb_Chocolate_Peanut_Butter_1_4c36fb6d-8985-4e3c-a43d-3acbbe5151eb.webp?v=1750339744",
+        "link": "https://nutristar.in/products/kaged-casein-protein-27-servings-2-lbs"
+      },
+      {
+        "title": "Kaged Post Workout, 20 Servings - 2 Lbs",
+        "price": "Rs. 6199",
+        "image": "https://nutristar.in/cdn/shop/files/Post_Workout_2lb_Iced_Lemon_Cake_1_626d4299-c690-4638-a0a3-4b2a2456151b.webp?v=1750340129",
+        "link": "https://nutristar.in/products/kaged-post-workout-20-servings-2-lbs"
+      }
+    ],
+    "comboPrice": "Rs. 17097"
+  },
+  {
+    "brand": "Kapiva",
+    "comboName": "Kapiva Starter Pack",
+    "products": [
+      {
+        "title": "Kapiva Ayur Foods Flaxseed Omega 3 Capsules - 30 Servings",
+        "price": "Rs. 899",
+        "image": "https://nutristar.in/cdn/shop/files/61RlV65uHcL._SL1500_f7ec0a36-285d-4096-b968-43a66b66c3de.jpg?v=1748695459",
+        "link": "https://nutristar.in/products/kapiva-ayur-foods-flaxseed-omega-3-capsules-30-servings"
+      },
+      {
+        "title": "Kapiva Ayur Foods Ashwagandha Gold 60 capsules",
+        "price": "Rs. 499",
+        "image": "https://nutristar.in/cdn/shop/files/61czoba46BL._SL1100.jpg?v=1744689110",
+        "link": "https://nutristar.in/products/kapiva-ayur-foods-ashwagandha-gold-60-capsules"
+      },
+      {
+        "title": "Kapiva Him Foods Shilajit Gold Resin - 20 g (Helps in Boosting Stamina )",
+        "price": "Rs. 1289",
+        "image": "https://nutristar.in/cdn/shop/files/1_a41378c9-da62-4d74-9f9f-9deaa3ba8e57.jpg?v=1744019242",
+        "link": "https://nutristar.in/products/kapiva-him-foods-shilajit-gold-resin-20-g-helps-in-boosting-stamina"
+      }
+    ],
+    "comboPrice": "Rs. 2687"
+  },
+  {
+    "brand": "Kevin Levrone",
+    "comboName": "Kevin Levrone Starter Pack",
+    "products": [
+      {
+        "title": "Kevin Levrone Anabolic Iso Whey - 4.4 Lbs",
+        "price": "Rs. 6895",
+        "image": "https://nutristar.in/cdn/shop/files/1_e1c4f768-7ef9-4673-b230-bf07fc999421.png?v=1744019240",
+        "link": "https://nutristar.in/products/kevin-levrone-anabolic-iso-whey-4-4-lbs"
+      },
+      {
+        "title": "Kevin Levrone Anabolic Mass Gainer - 3 kg",
+        "price": "Rs. 4395",
+        "image": "https://nutristar.in/cdn/shop/files/1_1bff6805-63ca-4deb-9fdc-313d096a5af1.png?v=1744019235",
+        "link": "https://nutristar.in/products/kevin-levrone-anabolic-mass-gainer-3-kg"
+      },
+      {
+        "title": "Kevin Levrone Shaboom Pump , 385 Gm ( 44 Servings )",
+        "price": "Rs. 2295",
+        "image": "https://nutristar.in/cdn/shop/files/1_fd962ed7-8319-4cbd-97d3-e59e9858f435.png?v=1745116856",
+        "link": "https://nutristar.in/products/kevin-levrone-shaboom-pump-385-gm-44-servings"
+      }
+    ],
+    "comboPrice": "Rs. 13585"
+  },
+  {
+    "brand": "Labrada Nutrition",
+    "comboName": "Labrada Nutrition Starter Pack",
+    "products": [
+      {
+        "title": "Labrada Crealean 3g Creatine Monohydrate, 83 Servings",
+        "price": "Rs. 995",
+        "image": "https://nutristar.in/cdn/shop/files/1_224c77a2-2497-4de6-a4cf-e7342bf62515.png?v=1744019222",
+        "link": "https://nutristar.in/products/labrada-crealean-3g-creatine-monohydrate-83-servings"
+      },
+      {
+        "title": "Labrada Muscle Mass Gainer - 11 Lbs",
+        "price": "Rs. 4995",
+        "image": "https://nutristar.in/cdn/shop/files/1__32.png?v=1744019221",
+        "link": "https://nutristar.in/products/labrada-muscle-mass-gainer-11-lbs"
+      },
+      {
+        "title": "Labrada Muscle Mass Gainer - 6.6 Lbs",
+        "price": "Rs. 3195",
+        "image": "https://nutristar.in/cdn/shop/files/1_-_2024-09-13t113347.855.png?v=1744019217",
+        "link": "https://nutristar.in/products/labrada-muscle-mass-gainer-6-6-lbs"
+      }
+    ],
+    "comboPrice": "Rs. 9185"
+  },
+  {
+    "brand": "MuscleBlaze",
+    "comboName": "MuscleBlaze Starter Pack",
+    "products": [
+      {
+        "title": "MuscleBlaze Whey Gold 100% Whey Isolate 1 Kg",
+        "price": "Rs. 3899",
+        "image": "https://nutristar.in/cdn/shop/files/616vusyNNhL._SL1500.jpg?v=1752221001",
+        "link": "https://nutristar.in/products/muscleblaze-whey-gold-100-whey-isolate-1kg"
+      },
+      {
+        "title": "MuscleBlaze XXL MASS Gainer - 11 Lbs",
+        "price": "Rs. 4275",
+        "image": "https://nutristar.in/cdn/shop/files/1_333a0c64-780a-42ee-bd00-7461a674e35e.png?v=1744019024",
+        "link": "https://nutristar.in/products/muscleblaze-xxl-mass-gainer-11-lbs"
+      },
+      {
+        "title": "MuscleBlaze Omega 3 Fish Oil, 1000 mg (180 mg EPA and 120 mg DHA) - 60 Softgels",
+        "price": "Rs. 449",
+        "image": "https://nutristar.in/cdn/shop/files/613fd-M1gWL._SL1500.jpg?v=1744628384",
+        "link": "https://nutristar.in/products/muscleblaze-omega-3-fish-oil-1000-mg-180-mg-epa-and-120-mg-dha-60-softgels"
+      }
+    ],
+    "comboPrice": "Rs. 8623"
+  },
+  {
+    "brand": "MuscleScience",
+    "comboName": "MuscleScience Starter Pack",
+    "products": [
+      {
+        "title": "MuscleScience Gym Bag",
+        "price": "Rs. 495",
+        "image": "https://nutristar.in/cdn/shop/files/MS_Bag.png?v=1744018601",
+        "link": "https://nutristar.in/products/musclescience-gym-bag-muscle-science-gym-bags-red-black"
+      },
+      {
+        "title": "Muscle Science Steel Shaker 750 ml",
+        "price": "Rs. 495",
+        "image": "https://nutristar.in/cdn/shop/files/MusclescienceSteelShakerBlack.jpg?v=1744018578",
+        "link": "https://nutristar.in/products/muscle-science-steel-shaker-750-ml"
+      },
+      {
+        "title": "Muscle Science Volcano Lava Pre-Workout - 42 Servings",
+        "price": "Rs. 975",
+        "image": "https://nutristar.in/cdn/shop/files/1_08c3210d-e75f-4f74-9bb2-d7795a6c3501.png?v=1744019210",
+        "link": "https://nutristar.in/products/muscle-science-volcano-lava-pre-workout-42-servings"
+      }
+    ],
+    "comboPrice": "Rs. 1965"
+  },
+  {
+    "brand": "Muscletech",
+    "comboName": "Muscletech Starter Pack",
+    "products": [
+      {
+        "title": "Muscletech Platinum Omega Fish OIl , 100 Softgels",
+        "price": "Rs. 799",
+        "image": "https://nutristar.in/cdn/shop/files/1_083ac06d-4215-4b3d-b662-3441f84b3bb8.webp?v=1744018974",
+        "link": "https://nutristar.in/products/muscletech-platinum-omega-fish-oil-100-softgels"
+      },
+      {
+        "title": "Muscletech Essential Glutamine 250 Gms",
+        "price": "Rs. 749",
+        "image": "https://nutristar.in/cdn/shop/files/1_9198c0d9-f2d4-4364-b5ed-615495c5dfef.webp?v=1744019010",
+        "link": "https://nutristar.in/products/muscletech-essential-glutamine-250-gms"
+      },
+      {
+        "title": "Muscletech EAA+ Energy 30 Servings",
+        "price": "Rs. 1670",
+        "image": "https://nutristar.in/cdn/shop/files/1_-_2024-09-13t103804.182.png?v=1748602803",
+        "link": "https://nutristar.in/products/muscletech-eaa-energy-30-servings"
+      }
+    ],
+    "comboPrice": "Rs. 3218"
+  },
+  {
+    "brand": "Mutant",
+    "comboName": "Mutant Starter Pack",
+    "products": [
+      {
+        "title": "Mutant Mass Extreme - 6 Lbs",
+        "price": "Rs. 3690",
+        "image": "https://nutristar.in/cdn/shop/files/71WRBMsLIEL._AC_SL1500.jpg?v=1751089923",
+        "link": "https://nutristar.in/products/mutant-mutant-mass-extreme-6-lbs"
+      },
+      {
+        "title": "Mutant Whey Protein - 10 Lbs",
+        "price": "Rs. 11785",
+        "image": "https://nutristar.in/cdn/shop/files/prd_3931047-Mutant-Whey-10-lb-Triple-Chocolate_o.jpg?v=1751090385",
+        "link": "https://nutristar.in/products/mutant-mutant-whey-10-lbs"
+      },
+      {
+        "title": "Mutant Mass Extreme - 12 Lbs",
+        "price": "Rs. 6675",
+        "image": "https://nutristar.in/cdn/shop/files/81f0_8f73SL._AC_SL1500.jpg?v=1751088187",
+        "link": "https://nutristar.in/products/mutant-mutant-mass-extreme-12-lbs"
+      }
+    ],
+    "comboPrice": "Rs. 22150"
+  },
+  {
+    "brand": "Alpino",
+    "comboName": "Alpino Starter Pack",
+    "products": [
+      {
+        "title": "Alpino Super Muesli (Whole Grain Breakfast Cereal) - 750 gm",
+        "price": "Rs. 559",
+        "image": "https://nutristar.in/cdn/shop/files/Alpino750gc.jpg?v=1747129871",
+        "link": "https://nutristar.in/products/alpino-super-muesli-whole-grain-breakfast-cereal-750-gm"
+      },
+      {
+        "title": "Alpino Peanut Butter Smooth 1 Kg",
+        "price": "Rs. 545",
+        "image": "https://nutristar.in/cdn/shop/files/1_-_2024-09-12t170038.344.png?v=1744019627",
+        "link": "https://nutristar.in/products/alpino-peanut-butter-smooth-1-kg"
+      },
+      {
+        "title": "Alpino High Protein Peanut Butter- 1 Kg",
+        "price": "Rs. 619",
+        "image": "https://nutristar.in/cdn/shop/files/1__100.png?v=1746016792",
+        "link": "https://nutristar.in/products/alpino-high-protein-peanut-butter-1-kg"
+      }
+    ],
+    "comboPrice": "Rs. 1723"
+  },
+  {
+    "brand": "AS-IT-IS",
+    "comboName": "AS-IT-IS Starter Pack",
+    "products": [
+      {
+        "title": "AS-IT-IS Nutrition Raw Whey Protein Isolate 90% -2 kg",
+        "price": "Rs. 5885",
+        "image": "https://nutristar.in/cdn/shop/files/1_ec5f3f52-af64-4649-b8e8-bb621fa5d769_1.png?v=1744019499",
+        "link": "https://nutristar.in/products/as-it-is-nutrition-raw-whey-protein-isolate-90-2-kg"
+      },
+      {
+        "title": "AS-IT-IS Nutrition Raw Whey Protein Concentrate 80% Unflavoured, 2 Kg",
+        "price": "Rs. 3946",
+        "image": "https://nutristar.in/cdn/shop/files/AS-IT-ISWPC2kg.jpg?v=1744019502",
+        "link": "https://nutristar.in/products/as-it-is-nutrition-raw-whey-protein-concentrate-80-unflavoured-2-kg"
+      },
+      {
+        "title": "AS-IT-IS Atom Whey Protein with Digestive Enzymes - 2 kg (4.4 Lbs)",
+        "price": "Rs. 4249",
+        "image": "https://nutristar.in/cdn/shop/files/6600720211ATOMWheyDRC2kgFrontImage_1.jpg?v=1745238507",
+        "link": "https://nutristar.in/products/as-it-is-atom-whey-protein-with-digestive-enzymes-4-4-lbs-2-kg"
+      }
+    ],
+    "comboPrice": "Rs. 14080"
+  },
+  {
+    "brand": "Avvtar ",
+    "comboName": "Avvtar  Starter Pack",
+    "products": [
+      {
+        "title": "Avvatar Gym Bag",
+        "price": "Rs. 495",
+        "image": "https://nutristar.in/cdn/shop/files/AvvatarGreyGymBag-6.jpg?v=1744018613",
+        "link": "https://nutristar.in/products/avvatar-gym-bag-avvatar-sports-nutrition-gym-bags-black"
+      },
+      {
+        "title": "Avvatar 100% Performance Whey - 2 Kg",
+        "price": "Rs. 4645",
+        "image": "https://nutristar.in/cdn/shop/files/1_efcbddc0-0deb-4386-9526-f7c2ef3c55b7.webp?v=1749017211",
+        "link": "https://nutristar.in/products/avvatar-100-performance-whey-2-kg"
+      },
+      {
+        "title": "Avvatar Smart Shaker with 2 compartment",
+        "price": "Rs.345",
+        "image": "https://nutristar.in/cdn/shop/files/AvvatarComparmentPlastic.jpg?v=1744018586",
+        "link": "https://nutristar.in/products/avvatar-smart-shaker-with-2-compartment"
+      }
+    ],
+    "comboPrice": "Rs. 5485"
+  },
+  {
+    "brand": "BPI Sports",
+    "comboName": "BPI Sports Starter Pack",
+    "products": [
+      {
+        "title": "BPI Sports Whey HD Ultra Premium Protein Powder- 4.4 Lbs",
+        "price": "Rs. 4395",
+        "image": "https://nutristar.in/cdn/shop/files/prd_3126405-BPI-Sports-WheyHD-Ultra-Premium-4.webp?v=1751091357",
+        "link": "https://nutristar.in/products/bpi-sports-whey-hd-ultra-premium-protein-powder-4-4-lbs"
+      },
+      {
+        "title": "BPI Sports Bulk Muscle XL Mass Gainer- 1 kg",
+        "price": "Rs. 1169",
+        "image": "https://nutristar.in/cdn/shop/files/1_9e5afb9d-8217-44b9-be1c-cc001f03bc68.png?v=1744018662",
+        "link": "https://nutristar.in/products/bpi-sports-bulk-muscle-xl-mass-gainer-1-kg"
+      },
+      {
+        "title": "BPI Sports Liquid L-Carnitine 3000 mg - 30 Servings",
+        "price": "Rs. 1295",
+        "image": "https://nutristar.in/cdn/shop/files/1_41ac9e94-9fcf-48c4-ab32-ebc9d6cfb38d.jpg?v=1751091252",
+        "link": "https://nutristar.in/products/bpi-sports-liquid-l-carnitine-3000-mg-30-servings"
+      }
+    ],
+    "comboPrice": "Rs. 6859"
+  },
+  {
+    "brand": "Doctor's Choice",
+    "comboName": "Doctor's Choice Starter Pack",
+    "products": [
+      {
+        "title": "Doctor's Choice EAA- Essential Amino Acids 30 Servings",
+        "price": "Rs. 1499",
+        "image": "https://nutristar.in/cdn/shop/files/1_95a1b4cd-11eb-4f03-8539-5661e6a0fbcf.png?v=1744019371",
+        "link": "https://nutristar.in/products/doctors-choice-eaa-essential-amino-acids-30-servings"
+      },
+      {
+        "title": "Doctor's Choice Bulk King Advanced Mass and Weight Gainer - 3 Kg",
+        "price": "Rs. 2749",
+        "image": "https://nutristar.in/cdn/shop/files/1_0163d2cc-a768-4396-8279-0445072ed4fd.webp?v=1744019382",
+        "link": "https://nutristar.in/products/doctors-choice-bulk-king-advanced-mass-and-weight-gainer-3-kg"
+      },
+      {
+        "title": "Dc Gym Shaker 700 ml",
+        "price": "Rs. 495",
+        "image": "https://nutristar.in/cdn/shop/files/DoctorChoicePlasticShakerRed.jpg?v=1744018583",
+        "link": "https://nutristar.in/products/dc-gym-shaker-700-ml"
+      }
+    ],
+    "comboPrice": "Rs. 4743"
+  },
+  {
+    "brand": "Dymatize",
+    "comboName": "Dymatize Starter Pack",
+    "products": [
+      {
+        "title": "Dymatize Elite 100% Whey Protein 5 Lbs",
+        "price": "Rs. 7995",
+        "image": "https://nutristar.in/cdn/shop/files/1_13_6e23dc90-f89b-45ec-ad13-e83c8fc62ac2.png?v=1745116924",
+        "link": "https://nutristar.in/products/dymatize-elite-100-whey-protein-5-lbs"
+      },
+      {
+        "title": "Dymatize ISO 100 Hydrolyzed Protein 5 Lbs",
+        "price": "Rs. 11095",
+        "image": "https://nutristar.in/cdn/shop/files/1_c43c88e1-73e0-4684-aa6c-c5a5d0246f53.png?v=1744290136",
+        "link": "https://nutristar.in/products/dymatize-iso-100-hydrolyzed-protein-5-lbs"
+      }
+    ],
+    "comboPrice": "Rs. 19090"
+  },
+  {
+    "brand": "GAT Sports",
+    "comboName": "GAT Sports Starter Pack",
+    "products": [
+      {
+        "title": "GAT Liver Cleanse - 60 Capsules",
+        "price": "Rs. 1345",
+        "image": "https://nutristar.in/cdn/shop/files/1_1006b8ed-cce9-4c2b-a523-e7ea09320fcc.png?v=1746772626",
+        "link": "https://nutristar.in/products/gat-liver-cleanse-60-capsules"
+      },
+      {
+        "title": "GAT Testrol Gold ES Testosterone Boosters - 60 Tablets",
+        "price": "Rs. 2195",
+        "image": "https://nutristar.in/cdn/shop/files/1_-_2024-09-13t122530.418.png?v=1744019314",
+        "link": "https://nutristar.in/products/gat-testrol-gold-es-testosterone-boosters-60-tablets"
+      },
+      {
+        "title": "GAT CLA 1250-90 Softgels",
+        "price": "Rs. 1425",
+        "image": "https://nutristar.in/cdn/shop/files/1_9e48b7f5-da38-438c-b6b1-32034cb3899b.png?v=1744019342",
+        "link": "https://nutristar.in/products/gat-cla-1250-90-softgels"
+      }
+    ],
+    "comboPrice": "Rs. 4965"
+  },
+  {
+    "brand": "GNC",
+    "comboName": "GNC Starter Pack",
+    "products": [
+      {
+        "title": "GNC Weight Gainer (3 Kg) + Big Muscles Creatine (100g) - Mass & Strength Combo",
+        "price": "Rs. 2548",
+        "image": "https://nutristar.in/cdn/shop/files/NUT-GNC-14_1ddb961f-132f-4f85-9a5d-39bdf4b2ace5.jpg?v=1751117005",
+        "link": "https://nutristar.in/products/gnc-weight-gainer-3-kg-big-muscles-creatine-100g-mass-and-strength-combo"
+      },
+      {
+        "title": "GNC Triflex Fast Acting - 120 Tablets",
+        "price": "Rs. 2625",
+        "image": "https://nutristar.in/cdn/shop/files/61hB1ZsUUoL._SL1200.jpg?v=1751715461",
+        "link": "https://nutristar.in/products/gnc-triflex-fast-acting-tab-1x120"
+      },
+      {
+        "title": "GNC Collagen Powder - 200 Gm",
+        "price": "Rs. 1065",
+        "image": "https://nutristar.in/cdn/shop/files/61Ynd493F4L._SL1200.jpg?v=1751716972",
+        "link": "https://nutristar.in/products/gnc-collagen-powder-200gm"
+      }
+    ],
+    "comboPrice": "Rs. 6238"
+  },
+  {
+    "brand": "HK Vitals",
+    "comboName": "HK Vitals Starter Pack",
+    "products": [
+      {
+        "title": "HK Vitals Skin Glutathione 30 capsules",
+        "price": "Rs. 720",
+        "image": "https://nutristar.in/cdn/shop/files/61kq1y-sBsL._SL1500.jpg?v=1750684036",
+        "link": "https://nutristar.in/products/hk-vitals-skin-glutathione-30-capsules"
+      },
+      {
+        "title": "HK Vitals Skin Radiance Collagen, 25 Servings - 200 Gm",
+        "price": "Rs. 859",
+        "image": "https://nutristar.in/cdn/shop/files/b9366ce2-baf4-48a5-a435-f10226451c4f1750254898673-HK-VITALS-Skin-Radiance-Collagen-Powder---Marine-Collagen----1.jpg?v=1750683173",
+        "link": "https://nutristar.in/products/hk-vitals-skin-radiance-collagen-200-gm-mixed-fruit"
+      },
+      {
+        "title": "HK Vitals Hair Biotin 60 tablet Unflavoured",
+        "price": "Rs. 349",
+        "image": "https://nutristar.in/cdn/shop/files/prd_3504425-HK-Vitals-Biotin-by-HealthKart-60-tablets-Unflavoured_o.webp?v=1750749951",
+        "link": "https://nutristar.in/products/hk-vitals-hair-biotin-60-tablet-unflavoured"
+      }
+    ],
+    "comboPrice": "Rs. 1928"
+  }
+]
