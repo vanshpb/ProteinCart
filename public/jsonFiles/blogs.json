@@ -1,0 +1,102 @@
+[
+  {
+    "img": "/category/MBgold.png",
+    "title": "Best Supplements",
+    "desc": "Discover the top 5 supplements every beginner should start with to boost performance and recovery.",
+    "content": "Supplements can be a game changer when combined with a solid diet and training program. The top 5 supplements every beginner should start with include: Whey Protein for recovery and muscle building, Creatine for strength and power, Multivitamins for overall health, Fish Oil for joint support and inflammation control, and BCAAs for muscle preservation during intense workouts. Always remember, supplements work best when your diet is consistent.",
+    "tag": "Supplements",
+    "date": "March 15, 2024",
+    "readTime": "5 min read",
+    "slug": "best-supplements"
+  },
+  {
+    "img": "/category/MBgold.png",
+    "title": "How to Gain Muscle Fast",
+    "desc": "A step-by-step guide to building lean muscle mass with the right diet and workout routine.",
+    "content": "Gaining muscle quickly requires the right mix of resistance training, progressive overload, and nutrition. Focus on compound lifts like squats, deadlifts, and bench press. Ensure you eat in a caloric surplus with enough protein (1.6–2g per kg of bodyweight). Rest and recovery are equally important, so make sure you sleep at least 7–8 hours per night. Track your progress and adjust your plan as your body adapts.",
+    "tag": "Fitness",
+    "date": "March 12, 2024",
+    "readTime": "7 min read",
+    "slug": "gain-muscle-fast"
+  },
+  {
+    "img": "/category/MBgold.png",
+    "title": "Protein Myths Busted",
+    "desc": "We debunk the most common myths about protein intake and reveal the real facts.",
+    "content": "There are many myths surrounding protein consumption. Myth 1: Eating too much protein damages kidneys. Reality: For healthy individuals, protein intake within recommended limits is safe. Myth 2: Plant protein is inferior. Reality: Plant proteins can be just as effective when combined. Myth 3: You need protein shakes to grow muscle. Reality: Whole food sources can cover your protein needs. Understanding facts helps optimize your nutrition.",
+    "tag": "Nutrition",
+    "date": "March 8, 2024",
+    "readTime": "4 min read",
+    "slug": "protein-myths-busted"
+  },
+  {
+    "img": "/category/MBgold.png",
+    "title": "Top 10 Home Workouts",
+    "desc": "No gym? No problem. These home workouts will help you stay fit with minimal equipment.",
+    "content": "Home workouts can be just as effective as the gym. Here are 10 you can do: Push-ups, Squats, Lunges, Planks, Jumping Jacks, Mountain Climbers, Glute Bridges, Burpees, Tricep Dips, and High Knees. Aim for 3–4 sets of each depending on your fitness level. No equipment is required, but you can add resistance bands or dumbbells for more challenge.",
+    "tag": "Workout",
+    "date": "March 5, 2024",
+    "readTime": "6 min read",
+    "slug": "top-10-home-workouts"
+  },
+  {
+    "img": "/category/MBgold.png",
+    "title": "Healthy Meal Prep Ideas",
+    "desc": "Save time and stay healthy with these easy meal prep recipes for the week.",
+    "content": "Meal prepping helps you stay consistent with nutrition. Start by planning protein-rich meals like grilled chicken with rice and veggies, overnight oats with fruit, or quinoa with roasted vegetables. Cook in batches, store in airtight containers, and label meals by day. This saves time, money, and keeps you on track with fitness goals.",
+    "tag": "Nutrition",
+    "date": "March 2, 2024",
+    "readTime": "8 min read",
+    "slug": "healthy-meal-prep"
+  },
+  {
+    "img": "/category/MBgold.png",
+    "title": "Cardio vs Strength Training",
+    "desc": "Understand the benefits of both cardio and strength training, and which one you need more.",
+    "content": "Cardio improves cardiovascular health, burns calories, and boosts endurance. Strength training builds muscle, strengthens bones, and raises metabolism. Ideally, a balanced fitness program includes both. If your goal is fat loss, combine strength training with moderate cardio. If endurance is the goal, focus on cardio with some strength support.",
+    "tag": "Fitness",
+    "date": "February 28, 2024",
+    "readTime": "5 min read",
+    "slug": "cardio-vs-strength"
+  },
+  {
+    "img": "/category/MBgold.png",
+    "title": "Morning Routine for Success",
+    "desc": "Start your day right with these powerful habits that fuel productivity and energy.",
+    "content": "A successful morning routine sets the tone for your day. Start by waking up early, drinking water, and doing 5–10 minutes of light stretching or meditation. Write down your goals for the day and avoid social media in the first hour. A balanced breakfast with protein and healthy fats helps fuel your body and mind.",
+    "tag": "Lifestyle",
+    "date": "February 25, 2024",
+    "readTime": "6 min read",
+    "slug": "morning-routine-success"
+  },
+  {
+    "img": "/category/MBgold.png",
+    "title": "Hydration and Performance",
+    "desc": "Learn how staying hydrated impacts your workouts and overall health.",
+    "content": "Water makes up over 60% of the human body, and dehydration can reduce strength, endurance, and focus. Aim for at least 2–3 liters daily, adjusting for activity levels. Electrolyte-rich fluids are beneficial during intense workouts. Carry a water bottle with you to make hydration a habit.",
+    "tag": "Health",
+    "date": "February 22, 2024",
+    "readTime": "4 min read",
+    "slug": "hydration-performance"
+  },
+  {
+    "img": "/category/Bcaa.png",
+    "title": "Yoga for Beginners",
+    "desc": "A simple guide to starting yoga for improved flexibility, balance, and mental clarity.",
+    "content": "Yoga is more than stretching—it’s a mind-body practice. Beginners should start with poses like Downward Dog, Child’s Pose, Warrior I, and Mountain Pose. Practice deep breathing along with movements to relax and reduce stress. Even 15–20 minutes a day can greatly improve flexibility, balance, and mental clarity.",
+    "tag": "Wellness",
+    "date": "February 18, 2024",
+    "readTime": "7 min read",
+    "slug": "yoga-for-beginners"
+  },
+  {
+    "img": "/category/MBgold.png",
+    "title": "Sleep and Muscle Growth",
+    "desc": "Discover why quality sleep is as important as training and diet for muscle recovery.",
+    "content": "Muscle growth doesn’t happen in the gym—it happens during recovery. Sleep is when the body repairs and builds muscle fibers. Lack of quality sleep decreases testosterone and growth hormone levels, slowing recovery. Aim for 7–9 hours of deep sleep nightly to maximize performance and results.",
+    "tag": "Health",
+    "date": "February 15, 2024",
+    "readTime": "5 min read",
+    "slug": "sleep-and-muscle-growth"
+  }
+]

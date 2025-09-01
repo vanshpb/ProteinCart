@@ -17,6 +17,7 @@ export default function HomePage() {
       <TopBrands />
       <DealsSection />
       <BlogSection />
+    
     </main>
   );
 }

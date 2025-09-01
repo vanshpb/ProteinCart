@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 export default function BlogSection() {
   const posts = [
     {
-      img: "/category/MBgold.png",
+      img: "/category/Bcaa.png",
       title: "Best Supplements",
       desc: "Discover the top 5 supplements every beginner should start with to boost performance and recovery.",
       tag: "Supplements",
@@ -98,12 +100,15 @@ export default function BlogSection() {
 
         {/* View All Button */}
         <div className="text-center mt-12">
-          <button className="bg-black text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-300 inline-flex items-center">
+          <Link
+            href="/blogs"
+            className="bg-black text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-300 inline-flex items-center"
+          >
             View All Articles
             <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
 

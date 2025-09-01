@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import Image from "next/image";
+import toast from "react-hot-toast";
 
 // ✅ Define Product type
 type Product = {
@@ -104,12 +105,15 @@ export default function HorizontalProductScroll() {
     });
   };
 
-  const addToCart = (product: Product) => {
-    const qty = quantities[product.id] || 1;
-    // Here you would typically dispatch to a cart context or global state
-    console.log(`Added ${qty} of ${product.name} to cart`);
-    alert(`Added ${qty} ${product.name} to cart!`);
-  };
+const addToCart = (product: Product) => {
+  const qty = quantities[product.id] || 1;
+  console.log(`Added ${qty} of ${product.name} to cart`);
+
+  toast.success(`Added ${qty} ${product.name} to cart!`, {
+    duration: 3000, // 3 seconds
+  });
+};
+
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
@@ -229,7 +233,7 @@ export default function HorizontalProductScroll() {
                       </div>
                     </div>
 
-                    {/* Bottom: Price and Add to Cart */}
+                    {/* Bottom: Price */}
                     <div className="mt-auto">
                       <div className="flex justify-between items-center mb-3">
                         <div>
@@ -238,7 +242,7 @@ export default function HorizontalProductScroll() {
                           </p>
                         </div>
                       </div>
-
+                      {/*  Add to Cart */}
                       <button
                         onClick={() => addToCart(product)}
                         className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center"
