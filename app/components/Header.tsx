@@ -11,9 +11,9 @@ export default function Header() {
   const cartCount = 0;
 
   return (
-    <header className="text-black sticky top-0 z-50 bg-white border-b border-black/10">
+    <header className="text-black sticky top-0 z-50 bg-white">
       {/* Top Section */}
-      <div className="flex items-center justify-between px-3 lg:px-8 xl:px-12 py-2 h-[60px] lg:h-[72px]">
+      <div className="flex items-center justify-between px-3 lg:px-8 xl:px-12 py-2 h-[50px] lg:h-[72px]">
         
         {/* Logo */}
         <div className="flex-shrink-0 flex items-center h-full">

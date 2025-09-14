@@ -2,6 +2,7 @@
 
 import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { useCart } from "@/app/cart/cartcontext"; // ✅ global cart hook
 
 type Product = {
@@ -16,7 +17,7 @@ type ProductCardProps = Product & {
 
 function ProductCard({ title, price, image, onAddToCart }: ProductCardProps) {
   return (
-    <div className="w-[320px] h-[400px] rounded-xl shadow-md border flex flex-col items-center justify-center p-4 text-center bg-white hover:shadow-lg transition-shadow duration-300">
+    <div className="w-[280px] sm:w-[320px] h-[380px] sm:h-[400px] rounded-xl shadow-md border flex flex-col items-center justify-center p-4 text-center bg-white hover:shadow-lg transition-shadow duration-300">
       <Image
         src={image}
         alt={title}
@@ -39,7 +40,7 @@ function ProductCard({ title, price, image, onAddToCart }: ProductCardProps) {
 export default function TrendingProducts() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [products, setProducts] = useState<Product[]>([]);
-  const { addToCart } = useCart(); // ✅ use global cart
+  const { addToCart } = useCart();
 
   useEffect(() => {
     fetch("/jsonFiles/trendingProduct.json")
@@ -55,7 +56,6 @@ export default function TrendingProducts() {
   };
 
   const handleAddToCart = (product: Product) => {
-    // ✅ don't send qty directly, let context handle it
     addToCart({
       id: Date.now(),
       name: product.title,
@@ -66,15 +66,24 @@ export default function TrendingProducts() {
 
   return (
     <section className="relative w-full max-w-6xl mx-auto">
-      <h2 className="text-5xl font-bold mb-10 text-center text-black">
-        TRENDING NOW
-      </h2>
+      {/* Header Row */}
+      <div className="flex justify-between items-center mb-8 px-4 sm:px-0">
+        <h2 className="text-3xl sm:text-4xl font-bold text-black">
+          TRENDING NOW
+        </h2>
+        <Link
+          href="/trending"
+          className="text-sm sm:text-base font-medium bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition"
+        >
+          View All →
+        </Link>
+      </div>
 
       {/* Scroll Buttons */}
       <button
         type="button"
         onClick={() => scrollBy(-320)}
-        className="absolute left-9 top-1/2 -translate-y-1/2 bg-white/60 border rounded shadow-md p-3 z-20 hover:bg-gray-100 transition active:scale-90"
+        className="absolute left-4 sm:left-9 top-1/2 -translate-y-1/2 bg-white/60 border rounded shadow-md p-3 z-20 hover:bg-gray-100 transition active:scale-90"
       >
         <img
           src="/trendNowImage/arrow-left-5-svgrepo-com.svg"
@@ -86,7 +95,7 @@ export default function TrendingProducts() {
       <button
         type="button"
         onClick={() => scrollBy(320)}
-        className="absolute right-9 top-1/2 -translate-y-1/2 bg-white/60 border rounded shadow-md p-3 z-20 hover:bg-gray-100 transition active:scale-90"
+        className="absolute right-4 sm:right-9 top-1/2 -translate-y-1/2 bg-white/60 border rounded shadow-md p-3 z-20 hover:bg-gray-100 transition active:scale-90"
       >
         <img
           src="/trendNowImage/arrow-left-5-svgrepo-com.svg"
@@ -98,7 +107,7 @@ export default function TrendingProducts() {
       {/* Horizontal Scroll */}
       <div
         ref={scrollRef}
-        className="flex overflow-x-auto gap-8 px-14 scroll-smooth hide-scrollbar w-full max-w-5xl mx-auto"
+        className="flex overflow-x-auto gap-6 sm:gap-8 px-6 sm:px-14 scroll-smooth hide-scrollbar w-full max-w-5xl mx-auto"
       >
         {products.map((p, i) => (
           <div key={i} className="flex-shrink-0">

@@ -1,75 +1,65 @@
 export default function BrandSection() {
   const brands = [
-    {
-      src: "/topBrands/musceltech.png",
-      alt: "Michael Kors luxury brand",
-      size: "medium"
-    },
-    {
-      src: "/topBrands/isopure.png",
-      alt: "Michael Kors luxury brand",
-      size: "small"
-    },
-    {
-      src: "/topBrands/gnc.png",
-      alt: "Michael Kors luxury brand - featured",
-      size: "large"
-    },
-    {
-      src: "/topBrands/isopure.png",
-      alt: "Michael Kors luxury brand",
-      size: "small"
-    },
-    {
-      src: "/topBrands/on.png",
-      alt: "Michael Kors luxury brand",
-      size: "medium"
-    }
+    { src: "/topBrands/musceltech.png", alt: "MuscleTech", size: "medium" },
+    { src: "/topBrands/isopure.png", alt: "Isopure", size: "small" },
+    { src: "/topBrands/gnc.png", alt: "GNC", size: "large" },
+    { src: "/topBrands/isopure.png", alt: "Isopure", size: "small" },
+    { src: "/topBrands/on.png", alt: "Optimum Nutrition", size: "medium" }
   ];
 
   return (
-    <section className="py-8 md:py-12 lg:py-16 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-12 px-4 sm:px-6 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12 text-black text-center">
           TOP BRANDS
         </h2>
 
-        <div className="grid grid-cols-3 gap-3 md:gap-4 lg:gap-6 items-center justify-center max-w-5xl mx-auto">
-          {/* Top row for mobile, left for desktop */}
-          <div className="col-span-3 md:col-span-1 row-start-1 md:row-start-1 flex flex-col gap-3 md:gap-4 lg:gap-6 items-center">
-            <img
-              src={brands[0].src}
-              alt={brands[0].alt}
-              className="w-full h-78 rounded-xl md:rounded-2xl transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-900"
-            />
-            <img
-              src={brands[1].src}
-              alt={brands[1].alt}
-              className="w-full h-56 rounded-xl md:rounded-2xl transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-900"
-            />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6 max-w-6xl mx-auto">
+          {/* Left column */}
+          <div className="flex flex-col gap-4">
+            <div className="aspect-[4/3] w-full bg-gray-900 rounded-xl overflow-hidden">
+              <img
+                src={brands[0].src}
+                alt={brands[0].alt}
+                className="w-full h-full object-contain p-4 transition-transform duration-300 hover:scale-105 cursor-pointer"
+              />
+            </div>
+            <div className="aspect-[4/3] w-full bg-gray-900 rounded-xl overflow-hidden">
+              <img
+                src={brands[1].src}
+                alt={brands[1].alt}
+                className="w-full h-full object-contain p-4 transition-transform duration-300 hover:scale-105 cursor-pointer"
+              />
+            </div>
           </div>
 
-          {/* Center brand - largest */}
-          <div className="col-span-3 md:col-span-1 row-start-2 md:row-start-1 flex justify-center">
-            <img
-              src={brands[2].src}
-              alt={brands[2].alt}
-              className="w-full max-w-xs md:max-w-none h-140 rounded-xl md:rounded-2xl transition-all duration-300 hover:scale-105 bg-gray-900 cursor-pointer z-10"
-            />
+          {/* Center (main brand) */}
+          <div className="flex justify-center items-center">
+            <div className="aspect-[3/4] w-4/5 sm:w-3/4 bg-gray-900 rounded-xl overflow-hidden shadow-lg">
+              <img
+                src={brands[2].src}
+                alt={brands[2].alt}
+                className="w-full h-full object-contain p-6 transition-transform duration-300 hover:scale-105 cursor-pointer"
+              />
+            </div>
           </div>
 
-          {/* Bottom row for mobile, right for desktop */}
-          <div className="col-span-3 md:col-span-1 row-start-3 md:row-start-1 flex flex-col gap-3 md:gap-4 lg:gap-6 items-center">
-            <img
-              src={brands[3].src}
-              alt={brands[3].alt}
-              className="w-full h-56 rounded-xl md:rounded-2xl transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-900"
-            />
-            <img
-              src={brands[4].src}
-              alt={brands[4].alt}
-              className="w-full h-78 rounded-xl md:rounded-2xl transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-900"
-            />
+          {/* Right column */}
+          <div className="flex flex-col gap-4">
+            <div className="aspect-[4/3] w-full bg-gray-900 rounded-xl overflow-hidden">
+              <img
+                src={brands[3].src}
+                alt={brands[3].alt}
+                className="w-full h-full object-contain p-4 transition-transform duration-300 hover:scale-105 cursor-pointer"
+              />
+            </div>
+            <div className="aspect-[4/3] w-full bg-gray-900 rounded-xl overflow-hidden">
+              <img
+                src={brands[4].src}
+                alt={brands[4].alt}
+                className="w-full h-full object-contain p-4 transition-transform duration-300 hover:scale-105 cursor-pointer"
+              />
+            </div>
           </div>
         </div>
       </div>

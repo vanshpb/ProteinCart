@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link"; // <-- import Link
 
 const categories = ["Proteins", "Creatine", "Pre-Workout", "Gainers", "Multivitamins"];
 
@@ -23,13 +24,13 @@ export default function HeroSection() {
   const [active, setActive] = useState("Proteins");
 
   return (
-    <section className="text-center py-20 px-4 sm:px-8 lg:px-16 bg-white">
+    <section className="max-w-5xl mx-auto text-center py-20 px-4 sm:px-8 lg:px-16 bg-white">
       {/* Heading */}
       <motion.h1
-        initial={{ opacity: 0, y: 20, filter: "blur(10px)" }} // hidden + blurred
-        animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}   // visible + clear
+        initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
+        animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
         transition={{ delay: 0.5, duration: 0.8, ease: "linear" }}
-        className="text-4xl sm:text-5xl lg:text-6xl mb-5 font-bold text-black max-w-4xl mx-auto leading-tight mt-5"
+        className="text-3xl sm:text-5xl lg:text-5xl mb-5 font-semibold text-black max-w-4xl mx-auto leading-tight mt-5"
       >
         Upgrade Your Fitness Fuel
       </motion.h1>
@@ -39,28 +40,37 @@ export default function HeroSection() {
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1, duration: 0.8, ease: "linear" }} // comes after the first
-        className="text-2xl sm:text-3xl lg:text-[46px]  font-[800] mb-6 text-black mt-21"
+        transition={{ delay: 1, duration: 0.8, ease: "linear" }}
+        className="text-2xl sm:text-3xl lg:text-5x1 font-[800] mb-6 text-black mt-18"
       >
         CATEGORY
       </motion.h1>
 
+      <div className="mb-10">
+        <Link
+          href="/trending"
+          className="inline-block mt-4 text-sm sm:text-base font-medium bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition"
+        >
+          View All →
+        </Link>
+      </div>
+
       {/* product button  */}
-      <div className="flex justify-center gap-2 sm:gap-3 flex-wrap mb-0">
+      <div className="flex justify-start gap-0 sm:gap-3 flex-wrap mb-0">
         {categories.map((cat) => (
           <button
             key={cat}
             onClick={() => setActive(cat)}
-            className={`px-3 sm:px-4 py-0 rounded-xl border font-extrabold text-sm sm:text-base transition ${active === cat
-              ? "bg-black text-white"
-              : "bg-white text-black border-black border-2 hover:bg-gray-100"
-              }`}
+            className={`px-2 sm:px-3 py-0 rounded-lg border font-medium text-xs sm:text-sm transition ${
+              active === cat
+                ? "bg-black text-white border border-black"
+                : "bg-white text-black border hover:bg-gray-100"
+            }`}
           >
             {cat}
           </button>
         ))}
       </div>
-
 
       {/* Product Images */}
       <div className="flex justify-center">

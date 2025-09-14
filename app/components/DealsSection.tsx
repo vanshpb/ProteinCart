@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import toast from "react-hot-toast";
 
 // ✅ Define Product type
@@ -105,41 +106,41 @@ export default function HorizontalProductScroll() {
     });
   };
 
-const addToCart = (product: Product) => {
-  const qty = quantities[product.id] || 1;
-  console.log(`Added ${qty} of ${product.name} to cart`);
+  const addToCart = (product: Product) => {
+    const qty = quantities[product.id] || 1;
+    console.log(`Added ${qty} of ${product.name} to cart`);
 
-  toast.success(`Added ${qty} ${product.name} to cart!`, {
-    duration: 3000, // 3 seconds
-  });
-};
-
+    toast.success(`Added ${qty} ${product.name} to cart!`, {
+      duration: 3000,
+    });
+  };
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({
-        left: -300,
-        behavior: 'smooth'
-      });
+      scrollContainerRef.current.scrollBy({ left: -300, behavior: "smooth" });
     }
   };
 
   const scrollRight = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({
-        left: 300,
-        behavior: 'smooth'
-      });
+      scrollContainerRef.current.scrollBy({ left: 300, behavior: "smooth" });
     }
   };
 
   return (
     <section className="py-12 px-4 sm:px-6 bg-white relative">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-10">
-          <h2 className="text-5xl font-bold text-black mb-3">
+      <div className="max-w-5xl mx-auto">
+        {/* Header with View All */}
+        <div className="flex flex-col sm:flex-row items-center justify-between mb-10">
+          <h2 className="text-4xl font-bold text-black text-center sm:text-left mb-3 sm:mb-0">
             DEALS OF THE MONTH
           </h2>
+          <Link
+            href="/trending"
+            className="text-sm sm:text-base font-medium bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition w-max"
+          >
+            View All →
+          </Link>
         </div>
 
         <div className="relative">
@@ -149,8 +150,18 @@ const addToCart = (product: Product) => {
             className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-4 z-10 bg-white/10 rounded p-2 shadow-lg border border-gray-200 transition-colors hidden md:flex items-center justify-center w-10 h-15"
             aria-label="Scroll left"
           >
-            <svg className="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            <svg
+              className="w-5 h-5 text-gray-700"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 19l-7-7 7-7"
+              />
             </svg>
           </button>
 
@@ -160,12 +171,23 @@ const addToCart = (product: Product) => {
             className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-4 z-10 bg-white/10 rounded p-2 shadow-lg border border-gray-200 transition-colors hidden md:flex items-center justify-center w-10 h-15"
             aria-label="Scroll right"
           >
-            <svg className="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            <svg
+              className="w-5 h-5 text-gray-700"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
             </svg>
           </button>
 
-          <div 
+          {/* Scrollable Products */}
+          <div
             ref={scrollContainerRef}
             className="flex overflow-x-auto pb-6 hide-scrollbar -mx-4 px-4"
           >
@@ -242,7 +264,6 @@ const addToCart = (product: Product) => {
                           </p>
                         </div>
                       </div>
-                      {/*  Add to Cart */}
                       <button
                         onClick={() => addToCart(product)}
                         className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center"
