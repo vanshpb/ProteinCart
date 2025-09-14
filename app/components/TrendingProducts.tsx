@@ -65,7 +65,7 @@ export default function TrendingProducts() {
   };
 
   return (
-    <section className="relative w-full max-w-6xl mx-auto">
+    <section className="relative w-full max-w-5xl mx-auto">
       {/* Header Row */}
       <div className="flex justify-between items-center mb-8 px-4 sm:px-0">
         <h2 className="text-3xl sm:text-4xl font-bold text-black">
