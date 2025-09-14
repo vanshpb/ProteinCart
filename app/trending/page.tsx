@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import { useCart } from "@/app/cart/cartcontext";
+import trendingProducts from "@/public/jsonFiles/trendingProduct.json"; // ✅ Direct import
 
 type Product = {
   title: string;
@@ -38,21 +39,14 @@ function ProductCard({
 }
 
 export default function TrendingPage({
-  jsonFile = "/jsonFiles/trendingProduct.json", // ✅ default file
-  heading = "All Trending Products", // ✅ default heading
+  products = trendingProducts, // ✅ fallback to imported JSON
+  heading = "All Trending Products",
 }: {
-  jsonFile?: string;
+  products?: Product[];
   heading?: string;
 }) {
-  const [products, setProducts] = useState<Product[]>([]);
   const { addToCart } = useCart();
-
-  useEffect(() => {
-    fetch(jsonFile)
-      .then((res) => res.json())
-      .then((data) => setProducts(data))
-      .catch((err) => console.error("Error loading products:", err));
-  }, [jsonFile]);
+  const [productList] = useState<Product[]>(products);
 
   const handleAddToCart = (product: Product) => {
     addToCart({
@@ -70,7 +64,7 @@ export default function TrendingPage({
       </h1>
 
       <div className="grid gap-8 sm:gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {products.map((p, i) => (
+        {productList.map((p, i) => (
           <ProductCard key={i} {...p} onAddToCart={handleAddToCart} />
         ))}
       </div>
