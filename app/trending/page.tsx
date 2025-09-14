@@ -1,72 +1,127 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
-import { useCart } from "@/app/cart/cartcontext";
-import trendingProducts from "@/public/jsonFiles/trendingProduct.json"; // ✅ Direct import
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
-type Product = {
+type BlogPost = {
+  img: string;
   title: string;
-  price: string;
-  image: string;
+  desc: string;
+  tag: string;
+  date: string;
+  readTime: string;
+  slug: string;
 };
 
-function ProductCard({
-  title,
-  price,
-  image,
-  onAddToCart,
-}: Product & { onAddToCart: (p: Product) => void }) {
+export default function BlogsPage() {
+  const [posts, setPosts] = useState<BlogPost[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("/jsonFiles/blogs.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setPosts(data);
+        setIsLoading(false);
+      })
+      .catch(() => setIsLoading(false));
+  }, []);
+
+  if (isLoading) {
+    return (
+      <section className="min-h-screen bg-gradient-to-br from-pink-50 to-indigo-50 flex items-center justify-center">
+        <div className="animate-pulse text-center">
+          <div className="h-12 w-12 rounded-full bg-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600 text-sm sm:text-base">
+            Loading articles...
+          </p>
+        </div>
+      </section>
+    );
+  }
+
   return (
-    <div className="w-full sm:w-[280px] md:w-[320px] h-[380px] md:h-[400px] rounded-xl shadow-md border flex flex-col items-center justify-center p-4 text-center bg-white hover:shadow-lg transition-shadow duration-300">
-      <Image
-        src={image}
-        alt={title}
-        width={160}
-        height={160}
-        className="object-contain"
-      />
-      <h3 className="text-base font-semibold mt-3">{title}</h3>
-      <p className="text-gray-600 text-sm mt-1">₹{price}</p>
-      <button
-        onClick={() => onAddToCart({ title, price, image })}
-        className="mt-4 bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition"
+    <section className="min-h-screen bg-gradient-to-br from-pink-50 to-indigo-50 py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto">
+        {/* Blog Posts Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          {posts.map((post, i) => (
+           <article
+  key={i}
+  className="bg-white rounded-lg md:rounded-xl border border-gray-100 overflow-hidden 
+             transition-all duration-300 hover:shadow-lg group flex flex-col
+             w-[90%] sm:w-[280px] md:w-[320px] lg:w-[350px] mx-auto"
+>
+  {/* Image container (reduced height) */}
+  <div className="relative overflow-hidden">
+    <img
+      src={post.img}
+      alt={post.title}
+      className="w-full h-32 sm:h-60 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+    />
+    <div className="absolute top-2 left-2">
+      <span className="text-[10px] sm:text-xs font-medium text-white bg-blue-600 px-2 py-1 rounded-full">
+        {post.tag}
+      </span>
+    </div>
+  </div>
+
+  {/* Content (reduced padding & spacing) */}
+  <div className="p-3 sm:p-4 flex flex-col flex-grow">
+    <div className="flex items-center justify-between text-xs text-gray-500 mb-2">
+      <span className="flex items-center">
+        <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+        {post.date}
+      </span>
+      <span className="flex items-center">
+        <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        {post.readTime}
+      </span>
+    </div>
+
+    <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300 line-clamp-2 leading-snug">
+      {post.title}
+    </h3>
+
+    <p className="text-sm text-gray-600 mb-3 line-clamp-3 flex-grow">
+      {post.desc}
+    </p>
+
+    <div className="flex items-center justify-between pt-3 border-t border-gray-100 mt-auto">
+      <Link
+        href={`/blogs/${post.slug}`}
+        className="text-blue-600 text-sm font-semibold hover:text-blue-700 transition-colors duration-300 flex items-center group/link"
       >
-        Add to Cart
+        Read
+        <svg
+          className="w-4 h-4 ml-1 transition-transform duration-300 group-hover/link:translate-x-1"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </Link>
+
+      <button
+        className="text-gray-400 hover:text-blue-600 transition-colors duration-300 p-1 rounded-full hover:bg-pink-50"
+        aria-label="Save article"
+      >
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+        </svg>
       </button>
     </div>
-  );
-}
+  </div>
+</article>
 
-export default function TrendingPage({
-  products = trendingProducts, // ✅ fallback to imported JSON
-  heading = "All Trending Products",
-}: {
-  products?: Product[];
-  heading?: string;
-}) {
-  const { addToCart } = useCart();
-  const [productList] = useState<Product[]>(products);
-
-  const handleAddToCart = (product: Product) => {
-    addToCart({
-      id: Date.now(),
-      name: product.title,
-      price: Number(product.price),
-      image: product.image,
-    });
-  };
-
-  return (
-    <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-black">
-        {heading}
-      </h1>
-
-      <div className="grid gap-8 sm:gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {productList.map((p, i) => (
-          <ProductCard key={i} {...p} onAddToCart={handleAddToCart} />
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );
